@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.capitals {
+  list-style: none;
+}
+
+.capital {
+  color: #000000;
+  text-align: start;
+}
+
+.main-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  font-family: Roboto;
+  background-color: #f8fafc;
+  padding: 50px;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.title {
+  color: #1e293b;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropbtn {
+  border: 1px solid #323f4b;
+  background-color: transparent;
+  height: 30px;
+  width: 80px;
+}
+
+.show-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.para {
+  color: #323f4b;
+  margin-left: 10px;
+}
+
+.country {
+  color: #1e293b;
+}
